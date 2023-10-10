@@ -1273,5 +1273,45 @@ margin-block-end: 40px;
     background-color: var(--gold-crayola);
     color: var(--eerie-black-1);
     font-family: var(--fontFamily-forum);
+    max-width: max-content;
+    line-height: var(--lineHeight-6);
+    text-transform: uppercase;
+    padding-inline: 10px;
+    margin-block-start: 10px;
 }
 
+
+.menu-card .span {
+    color: var(--gold-crayola);
+    margin-block: 10px;
+}
+
+.menu-card .card-text {
+    color: var(--quick-silver);
+    line-height: var(--lineHeight-4);
+}
+
+.menu-text .span {
+    display: inline-block;
+    color: var(--gold-crayola);
+}
+
+.menu .btn{
+    margin-inline: auto;
+    margin-block-start: 36px;
+}
+
+.menu .shape {
+    display: block;
+    width: 70%;
+}
+
+.menu .shape-2 {
+    top: 0;
+    left: 0;
+}
+
+.menu .shape-3{
+    bottom: 0;
+    right: 0;
+}
